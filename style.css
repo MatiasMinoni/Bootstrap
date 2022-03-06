@@ -1,0 +1,59 @@
+body{background-color: rgb(255, 255, 255);}
+h1{text-align: center;}
+
+.parallax {
+    /* The image used */
+    background-image: url("./articulos/parallax.jpg");
+  
+    /* Set a specific height */
+    min-height: 300px;
+   
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+  }
+
+
+    /* Lista footer */
+    .lista_footer{
+      box-shadow: none;
+      color: #f1f1f1;
+      list-style-type: none;
+      text-decoration:none;
+      list-style-type: none;
+      padding: 1px;
+      font-size: xx-large;
+      margin: 0px; 
+    
+    }
+      footer{
+        display: flex;
+        background-color: black;
+      color: white;
+    font-size: larger;
+    justify-content: flex-start;
+    margin-top: 100px;
+    
+    }
+    
+    
+    
+      .lista_footer:hover{
+        background-color: rgb(236, 236, 236);
+        color: rgb(0, 0, 0);
+      border-color: rgba(192, 190, 190, 0);
+      border-radius: 4px;
+     
+      }
+      *{
+        font-family: 'Lobster', cursive;
+      text-decoration: none;
+      list-style: none;
+      margin: 0;
+      
+      }
+
+      .row{width: 70%; margin-left: 50px;}
